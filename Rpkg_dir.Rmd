@@ -2,7 +2,6 @@
 title: "A personal directory of R packages for Ecology, Biogeography and Evolution,
   plus general statistics and graphics"
 author: "Pakillo"
-date: "Tuesday, April 15, 2014"
 output:
   html_document:
     toc: yes
@@ -15,14 +14,14 @@ Updated `r as.character(Sys.Date())`.
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
 
 
-[F. Rodriguez-Sanchez](http://tinyurl.com/frod-san)
+[F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
 
 
 Data sources 
 ------------
 
-Check CRAN Task View on [Web technologies](http://cran.r-project.org/web/views/WebTechnologies.html).
+Check [CRAN Task View on Web technologies](http://cran.r-project.org/web/views/WebTechnologies.html).
 
 
 Data management
@@ -41,11 +40,37 @@ Data management
 * [reshape2]()
 * [tabplot]() Large datasets viz.
 * [tabplotd3]() Interactive
+* [taRifx]() Useful functions
+* [DescTools](http://cran.r-project.org/web/packages/DescTools/index.html)
 
 
 General statistics
 -------------------
 
+
+
+Ordination & Multivariate Analysis
+----------------------------------
+
+Check also [Environmetrics](http://cran.r-project.org/web/views/Environmetrics.html) and [Multivariate](http://cran.r-project.org/web/views/Multivariate.html) CRAN Task Views.
+
+
+* [ade4](http://cran.r-project.org/web/packages/ade4/index.html) Multivariate data analysis and display
+* [dave]() Data Analysis in Vegetation Ecology
+* [ecodist]() Dissimilarity-based analysis (ordination, Mantel tests...)
+* [labdsv]() Includes plotting functions
+* [mvabund]() Analysing multivariate data (upscaling from individual species models)
+* [eigenprcomp](http://cran.r-project.org/web/packages/eigenprcomp/) Computes confidence intervals for the proportion explained by the first 1,2,k principal components
+* [vegan]()
+
+
+Survival analysis
+-----------------
+
+* [survival]()
+* [survMisc]()
+* [coxme]() Mixed-effects cox regression
+* [rawr]() Plotting functions: kmplot & ggsurv
 
 
 Regression tools
@@ -77,10 +102,12 @@ Regression tools
 * [glmulti]() Model selection and multimodel inference
 * [gnm]() Generalized nonlinear models
 * [heatmapFit]() Checking logistic regression goodness of fit
-* [hier.part]() Variance partitioning
+* [hier.part]() Variance partitioning to assess 'importance' of predictors. See also `relaimpo`.
 * [relaimpo]() Relative importance of predictors
 * [nlme]() Mixed models
 * [lme4]() Mixed models
+* [pamm]() Power analysis for mixed models
+* [odprism]() Power analysis for mixed models
 * [likelihood]() Maximum Likelihood Estimation
 * [lmtest]() Diagnostic checks for linear regression
 * [MARSS]() Multivariate Autoregressive State-Space Modeling
@@ -90,7 +117,6 @@ Regression tools
 * [mlogit]() Multinomial regression
 * [mvinfluence]() Influence Measures and Diagnostic Plots for Multivariate Linear Models
 * [msm]() Multi-state Markov and hidden Markov models in continuous time
-* [odprism]() Power analysis for mixed models
 * [PCovR]() Principal Covariates Regression (Reducing collinear predictor variables to a few components and regressing on them)
 * [HLMdiag]() Diagnostic tools for hierarchical models (fitted with lme4)
 * [stremo]() Learning Structural Equation Models
@@ -103,21 +129,6 @@ Regression tools
 
 
 
-
-
-Ordination & Multivariate Analysis
-----------------------------------
-
-Check also [Environmetrics CRAN Task View](http://cran.r-project.org/web/views/Environmetrics.html) and [Multivariate](http://cran.r-project.org/web/views/Multivariate.html)
-
-
-* [ade4](http://cran.r-project.org/web/packages/ade4/index.html) Multivariate data analysis and display
-* [dave]() Data Analysis in Vegetation Ecology
-* [ecodist]() Dissimilarity-based analysis (ordination, Mantel tests...)
-* [labdsv]() Includes plotting functions
-* [mvabund]() Analysing multivariate data (upscaling from individual species models)
-* [eigenprcomp](http://cran.r-project.org/web/packages/eigenprcomp/) Computes confidence intervals for the proportion explained by the first 1,2,k principal components
-* [vegan]()
 
 
 Bayesian/MCMC
@@ -136,15 +147,24 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 * [MCMCglmm]() Mixed models fitted by MCMC
 * [RSGHB]() Hierarchical Bayes models
 * [bayespref]() Analysis of count data
+* [predcomps](https://github.com/dchudz/predcomps) Average Predictive Comparisons
+
+
+
+### MCMC diagnostics
 
 * [coda]() MCMC output analysis
 * [boa]() Analyses of MCMC output (like `coda`)
 * [ggmcmc]() Graphic analysis of MCMC output
 * [mcmc]()
 * [mcmcmplots]() Plot MCMC output
+* [plotMCMC]() Diagnostic plots
 * [bmk]() MCMC diagnostics
 * [scapeMCMC]() MCMC diagnostic plots
 * [superdiag]() testing MCMC noncovergence
+
+
+### Generic MCMC samplers
 
 * [adaptMCMC](http://cran.r-project.org/web/packages/adaptMCMC/index.html) Generic MCMC sampler
 * [BRugs]() Interface to OpenBUGS
@@ -158,16 +178,24 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 * [rstan]()
 * [filzbach]()
 * [iBUGS]() Interface to BUGS/JAGS
-* [rube]()
+* [rube](http://stat.cmu.edu/~hseltman/rube/)
 * [INLA]() Integrated Nested Laplace Approximation
 * [LaplacesDemon]() 
 * [LearnBayes]() 
 * [MCMCpack]() MCMC samplers
 * [MHAdative]() MCMC sampler
-* [glmmBUGS]() 
+* [glmmBUGS]()
+* [datalist](http://cran.r-project.org/web/packages/datalist/index.html)
+
+
+### Spatial Bayes
 
 * [CARBayes]() Spatial models with CAR
 * [spBayes]() spatial Bayes
+* [geoCount](http://cran.r-project.org/web/packages/geoCount/index.html) generalized linear spatial models
+
+
+### ABC
 
 * [abc](http://cran.r-project.org/web/packages/abc/index.html) Approximate Bayesian Computation
 * [easyABC]() Approximate Bayesian Computation
@@ -196,13 +224,22 @@ Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Grap
 * [gclus]() Clustering graphics
 * [vcd]() Viz categorical data
 * [extracat]() Viz categorical data
+* [plot3d](http://cran.r-project.org/web/packages/plot3D/index.html) Plotting multi-dimensional data
+* [VizOR](http://cran.r-project.org/web/packages/VizOR/index.html) visualization tools for complex observational data
+
+
+### GGPLOT2
 
 * [ggplot2]()
 * [GGally]() extension to ggplot
 * [ggsubplot]() Embedding subplots within plots
 * [ggthemes]() Extra themes, scales and geoms for ggplot
+* [gplot2bdc](https://github.com/briandconnelly/ggplot2bdc)
+* [ggtern](http://www.ggtern.com/) Ternary diagrams
 
-* [plotly]()
+
+
+* [plotly](https://github.com/ropensci/plotly) R interface to plotly
 * [googleVis]() Using google chart tools
 * [rCharts]() Interactive charts
 * [lattice]() Multivariate plots
@@ -218,6 +255,7 @@ Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Grap
 * [tfplot]() Plot time series
 * [pathdiagram](http://cran.r-project.org/web/packages/pathdiagram/) 
 * [RIGHT]() Interactive graphics via HTML
+* [clickme](https://github.com/nachocab/clickme) Interactive plots
 
 * [animation]() Create animations
 
@@ -236,10 +274,16 @@ Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Grap
 * [prettyGraphs]() Publication-quality graphics.
 * [scagnostics]() Scatterplot diagnostics
 
+
+
+### Colour
+
 * [colorRamps]() Colour palettes
 * [RColorBrewer]()
-* [colorspace]()
+* [colorspace]() HCL (perceptually-based) palettes
 * [colortools]()
+
+
 
 * [dataview]()
 * [tabplot]() Large datasets viz.
@@ -272,6 +316,10 @@ Check also CRAN Task View on [Reproducible Research](http://cran.r-project.org/w
 * [R2wd]() Write MS-Word documents from R
 * [rmarkdown]()
 * [sjPlot]()
+* [Rgitbook](https://github.com/jbryer/Rgitbook)
+* [table1xls](http://cran.r-project.org/web/packages/table1xls/index.html) Summary tables in Excel format.
+* [DescTools](http://cran.r-project.org/web/packages/DescTools/index.html)
+* [rctrack](http://www.stjuderesearch.org/site/depts/biostats/rctrack)
 
 
 
@@ -296,14 +344,11 @@ Niche & Species Distribution Modelling
 * [SDMTools](http://www.rdocumentation.org/packages/SDMTools)
 * [adehabitatHS](http://cran.r-project.org/web/packages/adehabitatHS/index.html) 
 * [biomod2]() SDM ensembles
-* [detect]() Occupancy modelling
 * [hSDM]() Bayesian SDM
 * [maxlike]() SDM for presence-only data
 * [MigClim]() Implements dispersal in SDMs
 * [GRaF]() SDM using latent Gaussian random fields
 * [SightabilityModel]()
-* [marked]()
-* [unmarked]()
 * [EnvNicheR]() 
 * [RinSp](http://cran.r-project.org/web/packages/RInSp/) Ecological niche metrics to measure individual specialization
 * [bdvis](https://github.com/vijaybarve/bdvis) Biodiversity data visualization
@@ -315,7 +360,22 @@ Niche & Species Distribution Modelling
 * [ModelMap](http://cran.r-project.org/web/packages/ModelMap/) Random Forest and Stochastic Gradient Boosting Models
 * [modEVA](http://modtools.wordpress.com)
 * [rangemapper]() 
+* [comclim](http://cran.r-project.org/web/packages/comclim/index.html) Community climate statistics
+* [hypervolume](http://cran.r-project.org/web/packages/hypervolume/index.html) Modeling hypervolumes (species' niches)
+* [ppmlasso]() Point process models
+
+
+
+
+### Occupancy modelling
+
+* [detect]() Occupancy modelling
+* [marked]()
+* [unmarked]()
 * [stocc]() Occupancy modeling
+* [hierarchicalDS]() hierarchical analysis of distance sampling data
+
+
 
 
 
@@ -340,6 +400,8 @@ Climate
 * [SPEI]() Calculates Standardised Precipitation-Evaporation Index
 * [SPI]()
 * [weathermetrics]() 
+* [raincpc]() Rainfall data
+* [Evapotranspiration](http://cran.r-project.org/web/packages/Evapotranspiration/index.html)
 
 
 
@@ -362,6 +424,7 @@ Check also CRAN Task View on [Web technologies](http://cran.r-project.org/web/vi
 * [spatial.tools]() Functions for raster processing, including parallel processing
 * [maptools]() Reading and manipulating geographic data
 * [PBSmapping]()
+* [taRifx.geo]() Useful spatial functions
 
 * [climstats]() Tools for climate and raster analyses
 
@@ -396,6 +459,7 @@ Check also CRAN Task View on [Web technologies](http://cran.r-project.org/web/vi
 * [GEOmap]()
 * [rworldmap]()
 * [choroplethr]()
+* [mapmisc](http://cran.r-project.org/web/packages/mapmisc/index.html) Utilities for producing maps
 
 * [rlandscape]() Generates spatial landscapes
 
@@ -516,7 +580,9 @@ Check also [Environmetrics CRAN Task View](http://cran.r-project.org/web/views/E
 * [sExtinct]() Extinction analysis based on sightings
 * [BEDASSLE](http://cran.r-project.org/web/packages/BEDASSLE/) Disentangles the effects of geographic and ecological isolation on genetic differentiation
 * [ecomodtools]() Simulation models (inc. dispersal) 
-
+* [comclim](http://cran.r-project.org/web/packages/comclim/index.html) Community climate statistics
+* [kernelPop](http://cran.r-project.org/web/packages/kernelPop/index.html) Spatially explicit population genetic simulations
+* [siplab](http://cran.r-project.org/web/packages/siplab/index.html) spatially explicit individual-based vegetation models.
 
 
 Miscellaneous
@@ -546,6 +612,7 @@ Miscellaneous
 * [sos]() Search R packages
 * [source.gist]()
 * [twitteR]()
+* [DescTools](http://cran.r-project.org/web/packages/DescTools/index.html)
 
 
 
@@ -574,6 +641,7 @@ R programming
 * [Rd2Roxygen]()
 * [Rxoygen2]()
 * [scrapeR]()
+* [aprof](http://cran.r-project.org/web/packages/aprof/index.html) Profiling code and visualizing results to evaluate where is best to focus code optimization.
 
 
 
