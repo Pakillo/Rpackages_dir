@@ -1,9 +1,10 @@
 ---
-title: "A personal directory of R packages for Ecology, Biogeography and Evolution,
-  plus general statistics and graphics"
-author: "Pakillo"
+title: "My list of R packages for Ecology, Biogeography and Evolution, plus statistical modelling and visualization"
+author: "Francisco Rodriguez-Sanchez"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
+    keep_md: yes
     toc: yes
 ---
 
@@ -37,11 +38,14 @@ Data management
 * [multitable]() Manipulate multiple arrays
 * [datacheck]() Tools for checking data consistency
 * [dplyr]()
-* [reshape2]()
+* [reshape2]() Reshape data from long to wide format and vice versa
 * [tabplot]() Large datasets viz.
 * [tabplotd3]() Interactive
 * [taRifx]() Useful functions
 * [DescTools](http://cran.r-project.org/web/packages/DescTools/index.html)
+* [summarytools]() Quickly summarize dataframes (inc. markdown output)
+
+
 
 
 General statistics
@@ -226,6 +230,7 @@ Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Grap
 * [extracat]() Viz categorical data
 * [plot3d](http://cran.r-project.org/web/packages/plot3D/index.html) Plotting multi-dimensional data
 * [VizOR](http://cran.r-project.org/web/packages/VizOR/index.html) visualization tools for complex observational data
+* [GrapheR]() GUI for base plots
 
 
 ### GGPLOT2
@@ -236,6 +241,7 @@ Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Grap
 * [ggthemes]() Extra themes, scales and geoms for ggplot
 * [gplot2bdc](https://github.com/briandconnelly/ggplot2bdc)
 * [ggtern](http://www.ggtern.com/) Ternary diagrams
+* [ggthemr](https://github.com/cttobin/ggthemr) Extra themes for ggplot2
 
 
 
@@ -261,7 +267,7 @@ Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Grap
 
 * [calibrate]() Axes calibration
 * [labeling]() Axis labeling
-* [directlabels]() Labels for multicolor plots
+* [directlabels]() Labels for multicolor plots. See also `Hmisc:::labcurve`.
 * [gplots]() Useful plotting tools
 * [magicaxis]() Pretty scientific plots (e.g. log scales)
 * [PlotRegionHighlighter]() Creates an envelope that surrounds a set of points
@@ -282,6 +288,8 @@ Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Grap
 * [RColorBrewer]()
 * [colorspace]() HCL (perceptually-based) palettes
 * [colortools]()
+* [plotKML]() Colour palettes for mapping
+* [gplots]() Rich.colors palettes
 
 
 
@@ -363,7 +371,10 @@ Niche & Species Distribution Modelling
 * [comclim](http://cran.r-project.org/web/packages/comclim/index.html) Community climate statistics
 * [hypervolume](http://cran.r-project.org/web/packages/hypervolume/index.html) Modeling hypervolumes (species' niches)
 * [ppmlasso]() Point process models
-
+* [sdmvspecies]() Create virtual species for SDM
+* [virtualspecies](http://borisleroy.com/virtualspecies/) Create virtual species
+* [coenocline]() Simulate species presence and abundance along environmental gradients
+* [ecospat](http://cran.r-project.org/web/packages/ecospat/index.html) Many useful functions for niche & SDM (by A. Guisan's group)
 
 
 
@@ -460,6 +471,7 @@ Check also CRAN Task View on [Web technologies](http://cran.r-project.org/web/vi
 * [rworldmap]()
 * [choroplethr]()
 * [mapmisc](http://cran.r-project.org/web/packages/mapmisc/index.html) Utilities for producing maps
+* [sinkr](https://github.com/menugget/sinkr) Some GIS functions and colour palettes
 
 * [rlandscape]() Generates spatial landscapes
 
@@ -572,7 +584,7 @@ Check also [Environmetrics CRAN Task View](http://cran.r-project.org/web/views/E
 * [popbio]()
 * [demoniche](http://demoniche.r-forge.r-project.org/) Spatially-explicit demographic modelling
 * [BEDASSLE]() Disentangles the effects of geographic and ecological isolation on genetic differentiation.
-* [fylopic]() Organisms silhouettes
+* [rphylopic](https://github.com/sckott/rphylopic) Organisms silhouettes
 * [GSIF]() Global Soil Information
 * [Rarity]() Rarity indices
 * [taxize]() Taxonomy etc.
@@ -642,6 +654,7 @@ R programming
 * [Rxoygen2]()
 * [scrapeR]()
 * [aprof](http://cran.r-project.org/web/packages/aprof/index.html) Profiling code and visualizing results to evaluate where is best to focus code optimization.
+* [regex](https://github.com/richierocks/regex) Regular expressions made easier.
 
 
 
