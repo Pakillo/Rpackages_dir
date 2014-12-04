@@ -1,9 +1,8 @@
 # My list of R packages for Ecology, Biogeography and Evolution, plus statistical modelling and visualization
 Francisco Rodriguez-Sanchez  
-`r format(Sys.time(), '%d %B, %Y')`  
 
 
-Updated 2014-12-03.
+Updated 2014-12-04.
 
 
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
@@ -13,14 +12,13 @@ These are packages that I often use or, alternatively, I need only rarely but do
 
 
 
-Data sources 
-------------
+## Data sources 
 
 Check [CRAN Task View on Web technologies](http://cran.r-project.org/web/views/WebTechnologies.html).
 
 
-Data management
----------------
+## Data management
+
 
 * [data.table]() Tools for managing data frames
 * [datamerge]() Cleaning factors
@@ -35,6 +33,7 @@ Data management
 * [reshape2]() Reshape data from long to wide format and vice versa
 * [tabplot]() Large datasets viz.
 * [tabplotd3]() Interactive
+* [tableplot]()
 * [taRifx]() Useful functions
 * [DescTools](http://cran.r-project.org/web/packages/DescTools/index.html)
 * [summarytools]() Quickly summarize dataframes (inc. markdown output)
@@ -42,13 +41,13 @@ Data management
 
 
 
-General statistics
--------------------
+## General statistics
 
 
 
-Ordination & Multivariate Analysis
-----------------------------------
+
+### Ordination & Multivariate Analysis
+
 
 Check also [Environmetrics](http://cran.r-project.org/web/views/Environmetrics.html) and [Multivariate](http://cran.r-project.org/web/views/Multivariate.html) CRAN Task Views.
 
@@ -62,8 +61,8 @@ Check also [Environmetrics](http://cran.r-project.org/web/views/Environmetrics.h
 * [vegan]()
 
 
-Survival analysis
------------------
+### Survival analysis
+
 
 * [survival]()
 * [survMisc]()
@@ -71,8 +70,8 @@ Survival analysis
 * [rawr]() Plotting functions: kmplot & ggsurv
 
 
-Regression tools
-----------------
+### Regression tools
+
 
 * [aod]() Analysis of Overdispersed data
 * [AICcmodavg](http://cran.r-project.org/web/packages/AICcmodavg/index.html) Model selection and multimodel inference
@@ -129,8 +128,8 @@ Regression tools
 
 
 
-Bayesian/MCMC
----------------
+### Bayesian/MCMC
+
 
 Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesian.html).
 
@@ -149,7 +148,7 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 
 
 
-### MCMC diagnostics
+#### MCMC diagnostics
 
 * [coda]() MCMC output analysis
 * [boa]() Analyses of MCMC output (like `coda`)
@@ -162,7 +161,7 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 * [superdiag]() testing MCMC noncovergence
 
 
-### Generic MCMC samplers
+#### Generic MCMC samplers
 
 * [adaptMCMC](http://cran.r-project.org/web/packages/adaptMCMC/index.html) Generic MCMC sampler
 * [BRugs]() Interface to OpenBUGS
@@ -186,14 +185,14 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 * [datalist](http://cran.r-project.org/web/packages/datalist/index.html)
 
 
-### Spatial Bayes
+#### Spatial Bayes
 
 * [CARBayes]() Spatial models with CAR
 * [spBayes]() spatial Bayes
 * [geoCount](http://cran.r-project.org/web/packages/geoCount/index.html) generalized linear spatial models
 
 
-### ABC
+#### ABC
 
 * [abc](http://cran.r-project.org/web/packages/abc/index.html) Approximate Bayesian Computation
 * [easyABC]() Approximate Bayesian Computation
@@ -202,8 +201,8 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 
 
 
-Plotting & Visualisation
--------------------------
+## Plotting & Visualisation
+
 
 Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Graphics.html).
 
@@ -299,8 +298,8 @@ Check also [CRAN Task View on Graphics](http://cran.r-project.org/web/views/Grap
 
 
 
-Reproducible Research - Report generation
------------------------------------------
+## Reproducible Research - Report generation
+
 
 Check also CRAN Task View on [Reproducible Research](http://cran.r-project.org/web/views/ReproducibleResearch.html).
 
@@ -326,8 +325,8 @@ Check also CRAN Task View on [Reproducible Research](http://cran.r-project.org/w
 
 
 
-Parallelisation & Big Data
---------------------------
+## Parallelisation & Big Data
+
 
 Check also [CRAN Task View on High Performance Computing](http://cran.r-project.org/web/views/HighPerformanceComputing.html).
 
@@ -337,8 +336,8 @@ Check also [CRAN Task View on High Performance Computing](http://cran.r-project.
 
 
 
-Niche & Species Distribution Modelling
----------------------------------------
+## Niche & Species Distribution Modelling
+
 
 * [rgbif]() Access to GBIF data
 * [spocc]() Species occurrence data retrieval and mapping
@@ -385,8 +384,8 @@ Niche & Species Distribution Modelling
 
 
 
-Climate
--------
+## Climate
+
 
 
 * [BerkeleyEarth]() Climate data from Berkeley Earth database
@@ -410,8 +409,8 @@ Climate
 
 
 
-GIS/spatial functionality
--------------------------
+## GIS/spatial functionality
+
 
 
 Check also CRAN Task View on [Spatial](http://cran.r-project.org/web/views/Spatial.html) and [Spatiotemporal](http://cran.r-project.org/web/views/SpatioTemporal.html) data.
@@ -478,8 +477,8 @@ Check also CRAN Task View on [Web technologies](http://cran.r-project.org/web/vi
 
 
 
-Spatial Analysis
-------------------
+## Spatial Analysis
+
 
 Check also CRAN Task View on [Spatial](http://cran.r-project.org/web/views/Spatial.html) and [Spatiotemporal](http://cran.r-project.org/web/views/SpatioTemporal.html) data.
 
@@ -502,8 +501,8 @@ Check also CRAN Task View on [Spatial](http://cran.r-project.org/web/views/Spati
 
 
 
-Networks
---------
+## Networks
+
 * [bipartite]()
 * [igraph]() Network analysis and visualization
 * [enaR]()
@@ -512,8 +511,8 @@ Networks
 
 
 
-Phylogenetics, phylogeography & comparative analysis
------------------------------------------------------
+## Phylogenetics, phylogeography & comparative analysis
+
 
 Check also [Phylogenetics CRAN task view](http://cran.r-project.org/web/views/Phylogenetics.html).
 
@@ -538,16 +537,16 @@ Check also [Phylogenetics CRAN task view](http://cran.r-project.org/web/views/Ph
 
 
 
-Palaeoecology
--------------
+## Palaeoecology
+
 * [Bchron]() Bayesian chronologies
 * [Bclim]() Palaeoclimate reconstruction
 
 
 
 
-Ecological analyses (miscellaneous)
------------------------------------
+## Ecological analyses (miscellaneous)
+
 
 Check also [Environmetrics CRAN Task View](http://cran.r-project.org/web/views/Environmetrics.html).
 
@@ -591,8 +590,8 @@ Check also [Environmetrics CRAN Task View](http://cran.r-project.org/web/views/E
 * [siplab](http://cran.r-project.org/web/packages/siplab/index.html) spatially explicit individual-based vegetation models.
 
 
-Miscellaneous
---------------
+## Miscellaneous
+
 
 * [digitize]() Extract data from plots
 * [downloader]() Download files from internet
@@ -622,8 +621,8 @@ Miscellaneous
 
 
 
-R programming
--------------
+## R programming
+
 
 * [codetools]() Code analysis tools
 * [compiler]() Compile R code (e.g. a function) to speed it up

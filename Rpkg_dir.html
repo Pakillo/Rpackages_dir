@@ -54,22 +54,17 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <div id="header">
 <h1 class="title">My list of R packages for Ecology, Biogeography and Evolution, plus statistical modelling and visualization</h1>
 <h4 class="author"><em>Francisco Rodriguez-Sanchez</em></h4>
-<h4 class="date"><em>03 December, 2014</em></h4>
 </div>
 
 <div id="TOC">
 <ul>
 <li><a href="#data-sources">Data sources</a></li>
 <li><a href="#data-management">Data management</a></li>
-<li><a href="#general-statistics">General statistics</a></li>
+<li><a href="#general-statistics">General statistics</a><ul>
 <li><a href="#ordination-multivariate-analysis">Ordination &amp; Multivariate Analysis</a></li>
 <li><a href="#survival-analysis">Survival analysis</a></li>
 <li><a href="#regression-tools">Regression tools</a></li>
-<li><a href="#bayesianmcmc">Bayesian/MCMC</a><ul>
-<li><a href="#mcmc-diagnostics">MCMC diagnostics</a></li>
-<li><a href="#generic-mcmc-samplers">Generic MCMC samplers</a></li>
-<li><a href="#spatial-bayes">Spatial Bayes</a></li>
-<li><a href="#abc">ABC</a></li>
+<li><a href="#bayesianmcmc">Bayesian/MCMC</a></li>
 </ul></li>
 <li><a href="#plotting-visualisation">Plotting &amp; Visualisation</a><ul>
 <li><a href="#ggplot2">GGPLOT2</a></li>
@@ -92,7 +87,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </ul>
 </div>
 
-<p>Updated 2014-12-03.</p>
+<p>Updated 2014-12-04.</p>
 <p>These are packages that I often use or, alternatively, I need only rarely but don’t want to forget about. Of course, there are many other useful packages out there (e.g. at <a href="http://cran.r-project.org/web/packages/available_packages_by_name.html">CRAN</a> or <a href="https://github.com/search?q=package&amp;type=Repositories&amp;ref=advsearch&amp;l=R">GitHub</a>. Check also <a href="http://cran.r-project.org/web/views/">CRAN task views</a>.</p>
 <p><a href="http://bit.ly/frod_san">F. Rodriguez-Sanchez</a></p>
 <div id="data-sources" class="section level2">
@@ -115,6 +110,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href>reshape2</a> Reshape data from long to wide format and vice versa</li>
 <li><a href>tabplot</a> Large datasets viz.</li>
 <li><a href>tabplotd3</a> Interactive</li>
+<li><a href>tableplot</a></li>
 <li><a href>taRifx</a> Useful functions</li>
 <li><a href="http://cran.r-project.org/web/packages/DescTools/index.html">DescTools</a></li>
 <li><a href>summarytools</a> Quickly summarize dataframes (inc. markdown output)</li>
@@ -122,9 +118,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </div>
 <div id="general-statistics" class="section level2">
 <h2>General statistics</h2>
-</div>
-<div id="ordination-multivariate-analysis" class="section level2">
-<h2>Ordination &amp; Multivariate Analysis</h2>
+<div id="ordination-multivariate-analysis" class="section level3">
+<h3>Ordination &amp; Multivariate Analysis</h3>
 <p>Check also <a href="http://cran.r-project.org/web/views/Environmetrics.html">Environmetrics</a> and <a href="http://cran.r-project.org/web/views/Multivariate.html">Multivariate</a> CRAN Task Views.</p>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/ade4/index.html">ade4</a> Multivariate data analysis and display</li>
@@ -136,8 +131,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href>vegan</a></li>
 </ul>
 </div>
-<div id="survival-analysis" class="section level2">
-<h2>Survival analysis</h2>
+<div id="survival-analysis" class="section level3">
+<h3>Survival analysis</h3>
 <ul>
 <li><a href>survival</a></li>
 <li><a href>survMisc</a></li>
@@ -145,8 +140,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href>rawr</a> Plotting functions: kmplot &amp; ggsurv</li>
 </ul>
 </div>
-<div id="regression-tools" class="section level2">
-<h2>Regression tools</h2>
+<div id="regression-tools" class="section level3">
+<h3>Regression tools</h3>
 <ul>
 <li><a href>aod</a> Analysis of Overdispersed data</li>
 <li><a href="http://cran.r-project.org/web/packages/AICcmodavg/index.html">AICcmodavg</a> Model selection and multimodel inference</li>
@@ -200,8 +195,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href>Zelig</a></li>
 </ul>
 </div>
-<div id="bayesianmcmc" class="section level2">
-<h2>Bayesian/MCMC</h2>
+<div id="bayesianmcmc" class="section level3">
+<h3>Bayesian/MCMC</h3>
 <p>Check also <a href="http://cran.r-project.org/web/views/Bayesian.html">Bayesian CRAN Task View</a>.</p>
 <ul>
 <li><a href>bayess</a> Funcions used in the book ‘Bayesian essentials with R’</li>
@@ -217,8 +212,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href>bayespref</a> Analysis of count data</li>
 <li><a href="https://github.com/dchudz/predcomps">predcomps</a> Average Predictive Comparisons</li>
 </ul>
-<div id="mcmc-diagnostics" class="section level3">
-<h3>MCMC diagnostics</h3>
+<div id="mcmc-diagnostics" class="section level4">
+<h4>MCMC diagnostics</h4>
 <ul>
 <li><a href>coda</a> MCMC output analysis</li>
 <li><a href>boa</a> Analyses of MCMC output (like <code>coda</code>)</li>
@@ -231,8 +226,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href>superdiag</a> testing MCMC noncovergence</li>
 </ul>
 </div>
-<div id="generic-mcmc-samplers" class="section level3">
-<h3>Generic MCMC samplers</h3>
+<div id="generic-mcmc-samplers" class="section level4">
+<h4>Generic MCMC samplers</h4>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/adaptMCMC/index.html">adaptMCMC</a> Generic MCMC sampler</li>
 <li><a href>BRugs</a> Interface to OpenBUGS</li>
@@ -256,20 +251,21 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href="http://cran.r-project.org/web/packages/datalist/index.html">datalist</a></li>
 </ul>
 </div>
-<div id="spatial-bayes" class="section level3">
-<h3>Spatial Bayes</h3>
+<div id="spatial-bayes" class="section level4">
+<h4>Spatial Bayes</h4>
 <ul>
 <li><a href>CARBayes</a> Spatial models with CAR</li>
 <li><a href>spBayes</a> spatial Bayes</li>
 <li><a href="http://cran.r-project.org/web/packages/geoCount/index.html">geoCount</a> generalized linear spatial models</li>
 </ul>
 </div>
-<div id="abc" class="section level3">
-<h3>ABC</h3>
+<div id="abc" class="section level4">
+<h4>ABC</h4>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/abc/index.html">abc</a> Approximate Bayesian Computation</li>
 <li><a href>easyABC</a> Approximate Bayesian Computation</li>
 </ul>
+</div>
 </div>
 </div>
 <div id="plotting-visualisation" class="section level2">
