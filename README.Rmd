@@ -5,7 +5,7 @@ output:
     toc: yes
 ---
 
-**My directory of R packages for data analysis and visualization, Bayesian statistics, mapping, GIS, climate, Species Distribution Modelling, ecology, biogeography, evolution, reproducible science...**
+# My directory of R packages for data analysis and visualization, Bayesian statistics, mapping, GIS, climate, Species Distribution Modelling, ecology, biogeography, evolution, reproducible science...
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
@@ -26,23 +26,26 @@ Check [CRAN Task View on Web technologies](http://cran.r-project.org/web/views/W
 
 ## Data management
 
+Check out this great cheatsheet: [Data wrangling with dplyr and tidyr](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
+
+* [rio]() A Swiss-Army Knife for Data I/O
+* [tidyr]() Reshape data
+* [reshape2]() Reshape data from long to wide format and vice versa
+* [dplyr]() Data wrangling
 * [data.table]() Tools for managing data frames
-* [datamerge]() Cleaning factors
-* [foreign]() Read data in many different formats
 * [gdata]() Data manipulation
 * [Hmisc]() Frank Harrell's miscellaneous tools 
 * [Kmisc]() Data reshaping, table and plot generation from RMarkdown
+* [datamerge]() Cleaning factors
 * [lubridate]() Dates and times
 * [multitable]() Manipulate multiple arrays
 * [datacheck]() Tools for checking data consistency
-* [dplyr]()
-* [reshape2]() Reshape data from long to wide format and vice versa
 * [tabplot]() Large datasets viz.
 * [tabplotd3]() Interactive
 * [tableplot]()
 * [taRifx]() Useful functions
-* [DescTools](http://cran.r-project.org/web/packages/DescTools/index.html)
+* [DescTools](http://cran.r-project.org/web/packages/DescTools/index.html) Many useful functions
 * [summarytools]() Quickly summarize dataframes (inc. markdown output)
 
 
@@ -64,6 +67,7 @@ Check also [Environmetrics](http://cran.r-project.org/web/views/Environmetrics.h
 * [ecodist]() Dissimilarity-based analysis (ordination, Mantel tests...)
 * [labdsv]() Includes plotting functions
 * [mvabund]() Analysing multivariate data (upscaling from individual species models)
+* [boral]() 
 * [eigenprcomp](http://cran.r-project.org/web/packages/eigenprcomp/) Computes confidence intervals for the proportion explained by the first 1,2,k principal components
 * [vegan]()
 
