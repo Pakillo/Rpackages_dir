@@ -5,7 +5,7 @@ output:
     toc: yes
 ---
 
-# My directory of R packages for data analysis and visualization, Bayesian statistics, mapping, GIS, climate, Species Distribution Modelling, ecology, biogeography, evolution, reproducible science...
+## My directory of R packages for data analysis and visualization, Bayesian statistics, mapping, GIS, climate, Species Distribution Modelling, ecology, biogeography, evolution, reproducible science...
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
