@@ -28,7 +28,7 @@ My directory of R packages for data analysis and visualization, Bayesian statist
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
-Updated 2015-06-09
+Updated 2015-06-24
 
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
 
@@ -50,14 +50,13 @@ Check out this great cheatsheet: [Data wrangling with dplyr and tidyr](http://ww
 -   [gdata]() Data manipulation
 -   [Hmisc]() Frank Harrell's miscellaneous tools
 -   [Kmisc]() Data reshaping, table and plot generation from RMarkdown
--   [datamerge]() Cleaning factors
 -   [lubridate]() Dates and times
 -   [multitable]() Manipulate multiple arrays
 -   [datacheck]() Tools for checking data consistency
 -   [tabplot]() Large datasets viz.
 -   [tabplotd3]() Interactive
 -   [tableplot]()
--   [taRifx]() Useful functions
+-   [taRifx](http://cran.r-project.org/web/packages/taRifx/index.html) Useful functions
 -   [DescTools](http://cran.r-project.org/web/packages/DescTools/index.html) Many useful functions
 -   [summarytools]() Quickly summarize dataframes (inc. markdown output)
 
@@ -68,14 +67,14 @@ General statistics
 
 Check also [Environmetrics](http://cran.r-project.org/web/views/Environmetrics.html) and [Multivariate](http://cran.r-project.org/web/views/Multivariate.html) CRAN Task Views.
 
+-   [vegan]()
 -   [ade4](http://cran.r-project.org/web/packages/ade4/index.html) Multivariate data analysis and display
 -   [dave]() Data Analysis in Vegetation Ecology
 -   [ecodist]() Dissimilarity-based analysis (ordination, Mantel tests...)
 -   [labdsv]() Includes plotting functions
 -   [mvabund]() Analysing multivariate data (upscaling from individual species models)
--   [boral]()
+-   [boral]() Bayesian ordination and regression analysis
 -   [eigenprcomp](http://cran.r-project.org/web/packages/eigenprcomp/) Computes confidence intervals for the proportion explained by the first 1,2,k principal components
--   [vegan]()
 
 ### Survival analysis
 
@@ -351,6 +350,8 @@ Niche & Species Distribution Modelling
 -   [virtualspecies](http://borisleroy.com/virtualspecies/) Create virtual species
 -   [coenocline]() Simulate species presence and abundance along environmental gradients
 -   [ecospat](http://cran.r-project.org/web/packages/ecospat/index.html) Many useful functions for niche & SDM (by A. Guisan's group)
+-   [comclim]()
+-   [Metadata]()
 
 ### Occupancy modelling
 
@@ -363,12 +364,13 @@ Niche & Species Distribution Modelling
 Climate
 -------
 
--   [BerkeleyEarth]() Climate data from Berkeley Earth database
+-   [BerkeleyEarth](http://cran.r-project.org/web/packages/BerkeleyEarth/index.html) Climate data from Berkeley Earth database
 -   [climates]() Tools for climate data (bioclim, downscaling, interpolation...)
 -   [climatol]() Homogenisation of climate time series
--   [climstats]() Tools for climate data ()
+-   [climstats]() Tools for climate data
 -   [RMAWGEN]() Generate daily time series from monthly mean values
 -   [climdex.pcic]() Computation of climate indices
+-   [ClimClass](http://cran.r-project.org/web/packages/ClimClass/index.html) Climate Classification according to various indices
 -   [RClimMAWGEN]() generate time series of climate indices
 -   [chillR]() Climate and phenology analysis
 -   [rWBclimate]() Lots of historical data and future projections
@@ -381,6 +383,11 @@ Climate
 -   [weathermetrics]()
 -   [raincpc]() Rainfall data
 -   [Evapotranspiration](http://cran.r-project.org/web/packages/Evapotranspiration/index.html)
+-   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)
+-   [crn](http://cran.r-project.org/web/packages/crn/index.html) Get data from Climate Reference Network
+-   [iki.dataclim](http://cran.r-project.org/web/packages/iki.dataclim/index.html)
+-   [FedData](http://cran.r-project.org/web/packages/FedData/index.html)
+-   [stationaRy](https://github.com/rich-iannone/stationaRy) Hourly data worldwide
 
 GIS/spatial functionality
 -------------------------
