@@ -19,6 +19,7 @@
 -   [Networks](#networks)
 -   [Phylogenetics, phylogeography & comparative analysis](#phylogenetics,-phylogeography-&-comparative-analysis)
 -   [Palaeoecology](#palaeoecology)
+-   [Dendrochronology](#dendrochronology)
 -   [Ecological analyses (miscellaneous)](#ecological-analyses-(miscellaneous))
 -   [Miscellaneous](#miscellaneous)
 -   [R programming](#r-programming)
@@ -28,7 +29,7 @@ My directory of R packages for data analysis and visualization, Bayesian statist
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
-Updated 2015-06-24
+Updated 2015-10-29
 
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
 
@@ -352,6 +353,7 @@ Niche & Species Distribution Modelling
 -   [ecospat](http://cran.r-project.org/web/packages/ecospat/index.html) Many useful functions for niche & SDM (by A. Guisan's group)
 -   [comclim]()
 -   [Metadata]()
+-   [ENiRG](http://cran.r-project.org/web/packages/ENiRG/index.html)
 
 ### Occupancy modelling
 
@@ -508,6 +510,18 @@ Palaeoecology
 -   [Bchron]() Bayesian chronologies
 -   [Bclim]() Palaeoclimate reconstruction
 
+Dendrochronology
+----------------
+
+-   [dplR](https://github.com/cran/dplR) Dendrochronology
+-   [measuRing](https://github.com/cran/measuRing) Measuring ring width from scanned images.
+-   [TRADER](https://github.com/pavel-fibich/TRADER) Tree Ring Analysis of Disturbance Events
+-   [dendrobox](https://github.com/cszang/dendrobox) Interactive Tree-Ring Data Exploration Tool
+-   [treeclim](https://github.com/cszang/treeclim) Modeling tree-climate relationships.
+-   [bootRes](https://github.com/cszang/bootRes) Bootstrapped response functions.
+-   [rwtocore](https://github.com/ltrr-arizona-edu/rwtocore) convert tree-ring measurements to drawings of cores (Ruby).
+-   [triforce](https://github.com/ltrr-arizona-edu/triforce) read the TRiDaS dendrochronological standard and communicate with Tellervo servers.
+
 Ecological analyses (miscellaneous)
 -----------------------------------
 
@@ -517,7 +531,6 @@ Check also [Environmetrics CRAN Task View](http://cran.r-project.org/web/views/E
 -   [BiodiversityR]() GUI for biodiversity, suitability and community ecology analyses
 -   [cheddar]() Analysis and visualisation of community data
 -   [coexist]() Modelling species coexistence
--   [dplR]() Dendrochronology
 -   [DSpat]() Distance Sampling
 -   [fossil]() Species richness, species-area curves, beta-diversity
 -   [indicspecies]() Assess associations between different species and sites (e.g. indicator species)
