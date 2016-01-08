@@ -426,7 +426,7 @@ Check also [CRAN Task View on High Performance Computing](http://cran.r-project.
 * [iki.dataclim](http://cran.r-project.org/web/packages/iki.dataclim/index.html)
 * [FedData](http://cran.r-project.org/web/packages/FedData/index.html)
 * [stationaRy](https://github.com/rich-iannone/stationaRy) Hourly data worldwide
-
+* [tempcyclesdata](https://cran.r-project.org/web/packages/tempcyclesdata/index.html) Temperature data for ca. 8000 stations 1975-2013
 
 
 ## GIS/spatial functionality
