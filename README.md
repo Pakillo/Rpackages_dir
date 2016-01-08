@@ -29,7 +29,7 @@ My directory of R packages for data analysis and visualization, Bayesian statist
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
-Updated 2015-10-29
+Updated 2016-01-08
 
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
 
@@ -390,6 +390,7 @@ Climate
 -   [iki.dataclim](http://cran.r-project.org/web/packages/iki.dataclim/index.html)
 -   [FedData](http://cran.r-project.org/web/packages/FedData/index.html)
 -   [stationaRy](https://github.com/rich-iannone/stationaRy) Hourly data worldwide
+-   [tempcyclesdata](https://cran.r-project.org/web/packages/tempcyclesdata/index.html) Temperature data for ca. 8000 stations 1975-2013
 
 GIS/spatial functionality
 -------------------------
@@ -521,6 +522,8 @@ Dendrochronology
 -   [bootRes](https://github.com/cszang/bootRes) Bootstrapped response functions.
 -   [rwtocore](https://github.com/ltrr-arizona-edu/rwtocore) convert tree-ring measurements to drawings of cores (Ruby).
 -   [triforce](https://github.com/ltrr-arizona-edu/triforce) read the TRiDaS dendrochronological standard and communicate with Tellervo servers.
+-   [pointRes](https://cran.r-project.org/web/packages/pointRes/index.html) Calculate and plot pointer years
+-   [BIOdry](https://cran.r-project.org/web/packages/BIOdry/index.html) Multilevel Modeling of Dendroclimatical Fluctuations
 
 Ecological analyses (miscellaneous)
 -----------------------------------
