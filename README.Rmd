@@ -575,6 +575,7 @@ Check also [Phylogenetics CRAN task view](http://cran.r-project.org/web/views/Ph
 * [rwtocore](https://github.com/ltrr-arizona-edu/rwtocore) convert tree-ring measurements to drawings of cores (Ruby).
 * [triforce](https://github.com/ltrr-arizona-edu/triforce) read the TRiDaS dendrochronological standard and communicate with Tellervo servers.
 * [pointRes](https://cran.r-project.org/web/packages/pointRes/index.html) Calculate and plot pointer years
+* [BIOdry](https://cran.r-project.org/web/packages/BIOdry/index.html) Multilevel Modeling of Dendroclimatical Fluctuations
 
 
 
