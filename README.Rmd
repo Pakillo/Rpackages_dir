@@ -559,8 +559,8 @@ Check also [Phylogenetics CRAN task view](http://cran.r-project.org/web/views/Ph
 
 ## Palaeoecology
 
-* [Bchron]() Bayesian chronologies
-* [Bclim]() Palaeoclimate reconstruction
+* [Bchron](https://cran.r-project.org/web/packages/Bchron/index.html) Bayesian chronologies
+* [Bclim](https://cran.r-project.org/web/packages/Bclim/index.html) Palaeoclimate reconstruction
 
 
 

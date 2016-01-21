@@ -29,7 +29,7 @@ My directory of R packages for data analysis and visualization, Bayesian statist
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
-Updated 2016-01-08
+Updated 2016-01-22
 
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
 
@@ -508,8 +508,8 @@ Check also [Phylogenetics CRAN task view](http://cran.r-project.org/web/views/Ph
 Palaeoecology
 -------------
 
--   [Bchron]() Bayesian chronologies
--   [Bclim]() Palaeoclimate reconstruction
+-   [Bchron](https://cran.r-project.org/web/packages/Bchron/index.html) Bayesian chronologies
+-   [Bclim](https://cran.r-project.org/web/packages/Bclim/index.html) Palaeoclimate reconstruction
 
 Dendrochronology
 ----------------
