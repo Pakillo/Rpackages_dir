@@ -524,6 +524,7 @@ Dendrochronology
 -   [triforce](https://github.com/ltrr-arizona-edu/triforce) read the TRiDaS dendrochronological standard and communicate with Tellervo servers.
 -   [pointRes](https://cran.r-project.org/web/packages/pointRes/index.html) Calculate and plot pointer years
 -   [BIOdry](https://cran.r-project.org/web/packages/BIOdry/index.html) Multilevel Modeling of Dendroclimatical Fluctuations
+-   [sclero](https://cran.r-project.org/web/packages/sclero/) Measure Growth Patterns and Align Sampling Spots in Photographs
 
 Ecological analyses (miscellaneous)
 -----------------------------------
