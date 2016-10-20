@@ -29,7 +29,7 @@ My directory of R packages for data analysis and visualization, Bayesian statist
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
-Updated 2016-04-07
+Updated 2016-10-20
 
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
 
@@ -141,7 +141,6 @@ Check also [Environmetrics](http://cran.r-project.org/web/views/Environmetrics.h
 
 Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesian.html).
 
--   [bayess]() Funcions used in the book 'Bayesian essentials with R'
 -   [blme]() Bayesian multilevel models
 -   [BMA]() Model averaging
 -   [dclone]() Data cloning and MCMC tools (inc. JAGS functions)
@@ -154,18 +153,6 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 -   [bayespref]() Analysis of count data
 -   [predcomps](https://github.com/dchudz/predcomps) Average Predictive Comparisons
 
-#### MCMC diagnostics
-
--   [coda]() MCMC output analysis
--   [boa]() Analyses of MCMC output (like `coda`)
--   [ggmcmc]() Graphic analysis of MCMC output
--   [mcmc]()
--   [mcmcmplots]() Plot MCMC output
--   [plotMCMC]() Diagnostic plots
--   [bmk]() MCMC diagnostics
--   [scapeMCMC]() MCMC diagnostic plots
--   [superdiag]() testing MCMC noncovergence
-
 #### Generic MCMC samplers
 
 -   [adaptMCMC](http://cran.r-project.org/web/packages/adaptMCMC/index.html) Generic MCMC sampler
@@ -175,9 +162,11 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 -   [rjags]()
 -   [runjags]()
 -   [R2jags]()
+-   [jagsUI]()
 -   [R2OpenBUGS]()
 -   [R2WinBUGS]()
 -   [rstan]()
+-   [rstanarm]()
 -   [filzbach]()
 -   [iBUGS]() Interface to BUGS/JAGS
 -   [rube](http://stat.cmu.edu/~hseltman/rube/)
@@ -187,7 +176,22 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 -   [MCMCpack]() MCMC samplers
 -   [MHAdative]() MCMC sampler
 -   [glmmBUGS]()
+-   [mcmc]()
 -   [datalist](http://cran.r-project.org/web/packages/datalist/index.html)
+
+#### MCMC diagnostics
+
+-   [coda]() MCMC output analysis
+-   [boa]() Analyses of MCMC output (like `coda`)
+-   [ggmcmc]() Graphic analysis of MCMC output
+-   [mcmcmplots](https://cran.r-project.org/package=mcmcplots) Plot MCMC output
+-   [plotMCMC]() Diagnostic plots
+-   [bmk]() MCMC diagnostics
+-   [superdiag]() testing MCMC noncovergence
+-   [shinyStan]()
+-   [MCMCvis]()
+-   [rwty](https://cran.r-project.org/package=rwty)
+-   [dMCMC](https://github.com/MarcoDVisser/dMCMC)
 
 #### Spatial Bayes
 
