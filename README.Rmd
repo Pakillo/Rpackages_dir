@@ -144,6 +144,7 @@ Check also [Environmetrics](http://cran.r-project.org/web/views/Environmetrics.h
 
 Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesian.html).
 
+* [rstanarm]()
 * [blme]() Bayesian multilevel models
 * [BMA]() Model averaging
 * [dclone]() Data cloning and MCMC tools (inc. JAGS functions)
@@ -171,7 +172,6 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 * [R2OpenBUGS]()
 * [R2WinBUGS]()
 * [rstan]()
-* [rstanarm]()
 * [filzbach]()
 * [iBUGS]() Interface to BUGS/JAGS
 * [rube](http://stat.cmu.edu/~hseltman/rube/)
@@ -187,7 +187,7 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 
 
 
-#### MCMC diagnostics
+#### MCMC diagnostics & plotting
 
 * [coda]() MCMC output analysis
 * [boa]() Analyses of MCMC output (like `coda`)
@@ -200,6 +200,7 @@ Check also [Bayesian CRAN Task View](http://cran.r-project.org/web/views/Bayesia
 * [MCMCvis]()
 * [rwty](https://cran.r-project.org/package=rwty)
 * [dMCMC](https://github.com/MarcoDVisser/dMCMC)
+* [bayesplot](https://github.com/stan-dev/bayesplot)
 
 
 
