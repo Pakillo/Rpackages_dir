@@ -588,7 +588,7 @@ Check also [Phylogenetics CRAN task view](http://cran.r-project.org/web/views/Ph
 * [BIOdry](https://cran.r-project.org/web/packages/BIOdry/index.html) Multilevel Modeling of Dendroclimatical Fluctuations
 * [sclero](https://cran.r-project.org/web/packages/sclero/) Measure Growth Patterns and Align Sampling Spots in Photographs
 * [dendrometeR](https://cran.r-project.org/web/packages/dendrometeR/) Analyzing Dendrometer Data.
-
+* [wvtool](https://cran.r-project.org/package=wvtool) Image Tools for Automated Wood Identification
 
 
 
