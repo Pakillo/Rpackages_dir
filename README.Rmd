@@ -590,6 +590,7 @@ Check also [Phylogenetics CRAN task view](http://cran.r-project.org/web/views/Ph
 * [dendrometeR](https://cran.r-project.org/web/packages/dendrometeR/) Analyzing Dendrometer Data.
 * [wvtool](https://cran.r-project.org/package=wvtool) Image Tools for Automated Wood Identification
 * [DendroSync](https://cran.r-project.org/web/packages/DendroSync/index.html) Calculating Spatial Synchrony Between Tree-Ring Chronologies
+* [iadf](https://cran.r-project.org/web/packages/iadf/index.html) Analysis of Intra Annual Density Fluctuations
 
 
 

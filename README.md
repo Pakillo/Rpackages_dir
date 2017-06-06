@@ -29,7 +29,7 @@ My directory of R packages for data analysis and visualization, Bayesian statist
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
-Updated 2017-05-22
+Updated 2017-06-06
 
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
 
@@ -533,6 +533,7 @@ Dendrochronology
 -   [dendrometeR](https://cran.r-project.org/web/packages/dendrometeR/) Analyzing Dendrometer Data.
 -   [wvtool](https://cran.r-project.org/package=wvtool) Image Tools for Automated Wood Identification
 -   [DendroSync](https://cran.r-project.org/web/packages/DendroSync/index.html) Calculating Spatial Synchrony Between Tree-Ring Chronologies
+-   [iadf](https://cran.r-project.org/web/packages/iadf/index.html) Analysis of Intra Annual Density Fluctuations
 
 Ecological analyses (miscellaneous)
 -----------------------------------
