@@ -1,35 +1,35 @@
--   [[My directory of R packages for data analysis and visualization, Bayesian statistics, mapping, GIS, climate, Species Distribution Modelling, ecology, biogeography, evolution, reproducible science...](#my-directory-of-r-packages-for-data-analysis-and-visualization-bayesian-statistics-mapping-gis-climate-species-distribution-modelling-ecology-biogeography-evolution-reproducible-science...)](#[my-directory-of-r-packages-for-data-analysis-and-visualization,-bayesian-statistics,-mapping,-gis,-climate,-species-distribution-modelling,-ecology,-biogeography,-evolution,-reproducible-science...](#my-directory-of-r-packages-for-data-analysis-and-visualization-bayesian-statistics-mapping-gis-climate-species-distribution-modelling-ecology-biogeography-evolution-reproducible-science...))
--   [[Data sources](#data-sources)](#[data-sources](#data-sources))
--   [[Data management](#data-management)](#[data-management](#data-management))
--   [[General statistics](#general-statistics)](#[general-statistics](#general-statistics))
-    -   [[Ordination & Multivariate Analysis](#ordination-multivariate-analysis)](#[ordination-&-multivariate-analysis](#ordination-multivariate-analysis))
-    -   [[Survival analysis](#survival-analysis)](#[survival-analysis](#survival-analysis))
-    -   [[Regression tools](#regression-tools)](#[regression-tools](#regression-tools))
-    -   [[Bayesian/MCMC](#bayesianmcmc)](#[bayesian/mcmc](#bayesianmcmc))
--   [[Plotting & Visualisation](#plotting-visualisation)](#[plotting-&-visualisation](#plotting-visualisation))
-    -   [[GGPLOT2](#ggplot2)](#[ggplot2](#ggplot2))
-    -   [[Colour](#colour)](#[colour](#colour))
--   [[Reproducible Research - Report generation](#reproducible-research---report-generation)](#[reproducible-research---report-generation](#reproducible-research---report-generation))
--   [[Parallelisation & Big Data](#parallelisation-big-data)](#[parallelisation-&-big-data](#parallelisation-big-data))
--   [[Niche & Species Distribution Modelling](#niche-species-distribution-modelling)](#[niche-&-species-distribution-modelling](#niche-species-distribution-modelling))
-    -   [[Occupancy modelling](#occupancy-modelling)](#[occupancy-modelling](#occupancy-modelling))
--   [[Climate](#climate)](#[climate](#climate))
--   [[GIS/spatial functionality](#gisspatial-functionality)](#[gis/spatial-functionality](#gisspatial-functionality))
--   [[Spatial Analysis](#spatial-analysis)](#[spatial-analysis](#spatial-analysis))
--   [[Networks](#networks)](#[networks](#networks))
--   [[Phylogenetics, phylogeography & comparative analysis](#phylogenetics-phylogeography-comparative-analysis)](#[phylogenetics,-phylogeography-&-comparative-analysis](#phylogenetics-phylogeography-comparative-analysis))
--   [[Palaeoecology](#palaeoecology)](#[palaeoecology](#palaeoecology))
--   [[Dendrochronology](#dendrochronology)](#[dendrochronology](#dendrochronology))
--   [[Ecological analyses (miscellaneous)](#ecological-analyses-miscellaneous)](#[ecological-analyses-(miscellaneous)](#ecological-analyses-miscellaneous))
--   [[Miscellaneous](#miscellaneous)](#[miscellaneous](#miscellaneous))
--   [[R programming](#r-programming)](#[r-programming](#r-programming))
+-   [[My directory of R packages for data analysis and visualization, Bayesian statistics, mapping, GIS, climate, Species Distribution Modelling, ecology, biogeography, evolution, reproducible science...](#my-directory-of-r-packages-for-data-analysis-and-visualization-bayesian-statistics-mapping-gis-climate-species-distribution-modelling-ecology-biogeography-evolution-reproducible-science...)]
+-   [[Data sources](#data-sources)]
+-   [[Data management](#data-management)]
+-   [[General statistics](#general-statistics)]
+    -   [[Ordination & Multivariate Analysis](#ordination-multivariate-analysis)]
+    -   [[Survival analysis](#survival-analysis)]
+    -   [[Regression tools](#regression-tools)]
+    -   [[Bayesian/MCMC](#bayesianmcmc)]
+-   [[Plotting & Visualisation](#plotting-visualisation)]
+    -   [[GGPLOT2](#ggplot2)]
+    -   [[Colour](#colour)]
+-   [[Reproducible Research - Report generation](#reproducible-research---report-generation)]
+-   [[Parallelisation & Big Data](#parallelisation-big-data)]
+-   [[Niche & Species Distribution Modelling](#niche-species-distribution-modelling)]
+    -   [[Occupancy modelling](#occupancy-modelling)]
+-   [[Climate](#climate)]
+-   [[GIS/spatial functionality](#gisspatial-functionality)]
+-   [[Spatial Analysis](#spatial-analysis)]
+-   [[Networks](#networks)]
+-   [[Phylogenetics, phylogeography & comparative analysis](#phylogenetics-phylogeography-comparative-analysis)]
+-   [[Palaeoecology](#palaeoecology)]
+-   [[Dendrochronology](#dendrochronology)]
+-   [[Ecological analyses (miscellaneous)](#ecological-analyses-miscellaneous)]
+-   [[Miscellaneous](#miscellaneous)]
+-   [[R programming](#r-programming)]
 
 My directory of R packages for data analysis and visualization, Bayesian statistics, mapping, GIS, climate, Species Distribution Modelling, ecology, biogeography, evolution, reproducible science...
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [F. Rodriguez-Sanchez](http://bit.ly/frod_san)
 
-Updated 2017-06-06
+Updated 2017-07-17
 
 These are packages that I often use or, alternatively, I need only rarely but don't want to forget about. Of course, there are many other useful packages out there (e.g. at [CRAN](http://cran.r-project.org/web/packages/available_packages_by_name.html) or [GitHub](https://github.com/search?q=package&type=Repositories&ref=advsearch&l=R). Check also [CRAN task views](http://cran.r-project.org/web/views/).
 
@@ -534,6 +534,7 @@ Dendrochronology
 -   [wvtool](https://cran.r-project.org/package=wvtool) Image Tools for Automated Wood Identification
 -   [DendroSync](https://cran.r-project.org/web/packages/DendroSync/index.html) Calculating Spatial Synchrony Between Tree-Ring Chronologies
 -   [iadf](https://cran.r-project.org/web/packages/iadf/index.html) Analysis of Intra Annual Density Fluctuations
+-   [dendroExtra](https://cran.r-project.org/package=dendroExtra) Finds the optimal sequence of days that are linearly or nonlinearly related to one or more tree-ring proxy records.
 
 Ecological analyses (miscellaneous)
 -----------------------------------

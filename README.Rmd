@@ -591,6 +591,7 @@ Check also [Phylogenetics CRAN task view](http://cran.r-project.org/web/views/Ph
 * [wvtool](https://cran.r-project.org/package=wvtool) Image Tools for Automated Wood Identification
 * [DendroSync](https://cran.r-project.org/web/packages/DendroSync/index.html) Calculating Spatial Synchrony Between Tree-Ring Chronologies
 * [iadf](https://cran.r-project.org/web/packages/iadf/index.html) Analysis of Intra Annual Density Fluctuations
+* [dendroExtra](https://cran.r-project.org/package=dendroExtra) Finds the optimal sequence of days that are linearly or nonlinearly related to one or more tree-ring proxy records.
 
 
 

@@ -7,7 +7,7 @@ md_toc <- function(path = paste0(getwd(), "/README.md")){
   inds <- 1:(which(!grepl("^\\s*-", x))[1] - 1)
   temp <- gsub("(^[ -]+)(.+)", "\\1", x[inds])
   content <- gsub("^[ -]+", "", x[inds])
-  x[inds] <- sprintf("%s[%s](#%s)", temp, content, gsub("\\s", "-", tolower(content)))
+  x[inds] <- sprintf("%s[%s]", temp, content, gsub("\\s", "-", tolower(content)))
   cat(paste(x, collapse = "\n"), file = path)
 }
 
