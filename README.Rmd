@@ -1,7 +1,6 @@
 ---
 output: 
-  md_document:
-    variant: markdown_github
+  github_document:
     toc: yes
 ---
 
@@ -402,6 +401,30 @@ Check also [CRAN Task View on High Performance Computing](http://cran.r-project.
 * [unmarked](https://cran.r-project.org/package=unmarked)
 * [stocc](https://cran.r-project.org/package=stocc) Occupancy modeling
 * [hierarchicalDS](https://cran.r-project.org/package=hierarchicalDS) hierarchical analysis of distance sampling data
+
+
+
+## Remote Sensing
+
+* [RStoolbox](https://github.com/bleutner/RStoolbox)
+* [moveVis](https://github.com/16EAGLE/moveVis)
+* [earthEngineGrabR](https://github.com/JesJehle/earthEngineGrabR)
+* [rsMove](https://github.com/RRemelgado/rsMove)
+* [satellite](https://github.com/environmentalinformatics-marburg/satellite)
+* [satelliteTools](https://github.com/environmentalinformatics-marburg/satelliteTools)
+* [uavRst](https://github.com/gisma/uavRst)
+* [fieldRS](https://github.com/RRemelgado/fieldRS)
+* [cropPhenology](https://github.com/SofanitAraya/CropPhenology)
+* [rTIMESAT](https://github.com/kongdd/rTIMESAT)
+* [luna](https://github.com/rspatial/luna)
+* [rabbiTS](https://github.com/16EAGLE/rabbiTS)
+* [theiaR](https://github.com/norival/theiaR)
+* [sentinel2](https://github.com/IVFL-BOKU/sentinel2)
+* [getSpatialData](https://github.com/16EAGLE/getSpatialData)
+* [sen2r](https://github.com/ranghetti/sen2r)
+* [S2utils](https://github.com/bbrede/S2utils)
+* [SentinelAPI](https://github.com/mattjbayly/SentinelAPI)
+* [RGISTools](https://github.com/spatialstatisticsupna/RGISTools)
 
 
 
